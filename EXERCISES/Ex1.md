@@ -1,18 +1,27 @@
-# EXPERIMENT - 1
-# Q1. Find the tile of each film 
-Query
-~~~sql
+# EXPERIMENT-1
+# 01. Find the title of each film 
+ Query
+~~~sql   
 SELECT Title FROM movies;
 ~~~
-# Q2. Find the director of each film
-Query
-~~~sql
-SELECT director FROM movies;
+# 02. Find the director of each film  
+ Query
+~~~sql   
+SELECT Director FROM movies;
 ~~~
-# Q3. Find the title and director of each film
-Query
-~~~sql
-SELECT title, director FROM movies;
+# 03.Find the title and director of each film  
+ Query
+~~~sql   
+SELECT Title,Director FROM movies;
 ~~~
-# Q4. 
+# 04. Find the title and year of each film
+ Query
+~~~sql   
+SELECT Title,Year FROM movies;
+~~~
+# 05. Find all the information about each film
+ Query
+~~~sql   
+SELECT * FROM movies;
+~~~
 
